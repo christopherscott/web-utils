@@ -2,3 +2,4 @@
 - CSS syntax checker: run through a CSS document looking for common/rare syntax problems
 - CSS kill empties: output/delete any unused CSS selectors
 - CSS stats: outputs info about the css in the project, # of selectors used, hacks, etc...
+- Prime Cache: utility for crawling local links of a URL, outputing results
