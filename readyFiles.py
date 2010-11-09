@@ -9,10 +9,10 @@ import os, sys, fileinput
 store = "ch"
  
 ch_tokens = {
-  "@i18n.countryCode.english@" : "en_CH",
-  "@i18n.countryCode.french@" : "fr_CH",
-  "@i18n.countryCode.german@" : "de_CH",
-  "@i18n.countryCode.italian@" : "it_CH"
+  "@some.token.one@" : "one",
+  "@some.token.two@" : "two",
+  "@some.token.three@" : "three",
+  "@some.token.four@" : "four"
 }
 
 types = (".css", ".js", ".jsp", ".jspf")
@@ -20,6 +20,7 @@ types = (".css", ".js", ".jsp", ".jspf")
 def replaceAll(text, dict):
   for token, value in dict.iteritems():
     text = text.replace(token, value)
+    
   return text
 
 def getFiles(directory):
@@ -35,7 +36,7 @@ def getFiles(directory):
 def replaceTokens(filelist):
   for line in fileinput.input(filelist, inplace=1):
     # igore lines with no token whatsoever
-    if line.find("@i18n.countryCode."):
+    if line.find("@some.token."):
       # eventually needs other store codes
       if store == "ch":
         sys.stdout.write(replaceAll(line, ch_tokens))            
@@ -43,5 +44,5 @@ def replaceTokens(filelist):
       sys.stdout.write(line)
 
 if __name__ == "__main__":
-  replacetokens( getFiles( os.getcwd() ) )
+  replaceTokens( getFiles( os.getcwd() ) )
   
