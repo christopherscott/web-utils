@@ -1,0 +1,256 @@
+
+/* -------------------------------------------------------------------------------------------------
+	= 	Better slider styles
+------------------------------------------------------------------------------------------------- */
+#slider {padding-top: 28px; margin: 0 auto;}	
+#slider ul, #slider li {margin:0;padding:0;list-style:none;}
+#slider li {width:790px;height:220px; margin: 0 auto}		
+
+#slider p, #slider h2 {margin: 0 20px}
+
+#slider a {font-weight: bold; color: #ffcc00; text-decoration: none}
+#slider a:hover {}
+#slider h2 {font-size: 2em;font-family: Helvetica, Helvetica Neue, Arial, sans-serif; font-weight: bold;line-height: 1.25em;}
+#slider h2 a {color: #fff;}
+#slider h2 a:hover {}
+#slider p {}
+#slider p.highlight {color: #ffcc00;font-size: 1.125em;margin: 10px 0;font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;font-style: italic}
+#slider p.more {text-align: right;font-size: .75em;margin: 10px 0;}
+#slider p.screenshot-left { float: left; width: 250px; margin-right: 50px}
+#slider p.screenshot-left img {width: 250px;}
+
+/* -------------------------------------------------------------------------------------------------
+	= 	Header
+------------------------------------------------------------------------------------------------- */
+
+#accessibility {display: none}
+
+#header {height: 232px;background: transparent url('http://images.christopher-scott.com/bg_philly.jpg') no-repeat 50% 0%;}
+#header-inner {position: relative; margin: 0 auto;width: 960px;padding-top: 40px}
+
+#metalinks {position: absolute;top: 0;right: 0;font-size: 0.75em;}
+#metalinks a {font-weight: bold;color: #fff;text-decoration: none; padding: 0 10px; border-right: 2px solid #8d6c3a}	
+#metalinks a:hover {text-decoration: underline;}
+#metalinks li {float: left;}
+#metalinks li.last a {padding-right: 0; margin-right: 0; border: 0;}
+#metalinks-rssimage {vertical-align: middle}
+
+#header #logo {background:transparent url('http://images.christopher-scott.com/bg_logo.png') no-repeat scroll 0 0px;height:80px;position:relative;width:338px;}
+#header #logo a:link, #header #logo a:visited {display:block;height:80px;overflow:hidden;position:relative;text-indent:-9000px;width:338px;z-index:5;}
+#header #logo span {background:transparent url('http://images.christopher-scott.com/bg_logo.png') no-repeat scroll -1px -162px; display:block; height:80px; left:0; position:absolute; top:0; width:338px; z-index:1;}
+#header #logo {background-position: 0 -162px;}
+#header #logo a:active, #home #header #logo a:focus {background-position:0 -80px;}
+#header #logo span {background-position: -1px -1px;}
+
+#tagline {width: 213px;background: transparent url('http://images.christopher-scott.com/bg_tagline.png') no-repeat 0px 5px; font-size: 0.75em; margin-left: 177px; padding: 10px 0}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Navigation
+------------------------------------------------------------------------------------------------- */
+
+#navigation {margin: 0 auto;float: right;width: 440px;margin-top: -115px;}
+
+.kwicks {list-style: none;position: relative;padding: 0;}
+.kwicks li{display: block;background: transparent;overflow: hidden;padding: 0;cursor: pointer;position: absolute}
+.kwicks li a {display: block;height: 75px;text-indent: -90000px;}
+.kwicks li {float: left;width: 110px;height: 75px;}
+
+#nav-portfolio {top: 31px; left: 0}
+#nav-portfolio a {background: transparent url('http://images.christopher-scott.com/bg_navigation.png') no-repeat 50% 0px}
+#nav-portfolio a:hover {background-position: 50% -75px}
+#nav-portfolio a:active {background-position: 50% -222px}
+#portfolio #nav-portfolio a {background-position: 50% -150px}
+#portfolio #nav-portfolio a:hover {background-position: 50% -75px}
+#portfolio #nav-portfolio a:active {background-position: 50% -222px}
+
+#nav-about {top: 13px; left: 110px}
+#nav-about a {background: transparent url('http://images.christopher-scott.com/bg_navigation.png') no-repeat 40% -300px}
+#nav-about a:hover {}
+#nav-about a:active {
+  }
+#about #nav-about a { }
+#about #nav-about a:hover {
+    
+    }
+#about #nav-about a:active {
+  
+}
+
+#nav-blog {top: -1px; left: 220px}
+#nav-blog a {background: transparent url('http://images.christopher-scott.com/bg_navigation.png') no-repeat 65% -600px}
+#nav-blog a:hover {background-position: 65% -675px}
+#nav-blog a:active {background-position:  65% -822px}
+#blog #nav-blog a {background-position: 65% -750px}
+#blog #nav-blog a:hover {background-position: 65% -675px}
+#blog #nav-blog a:active {background-position: 65% -822px}
+
+#nav-goodies {top: -1px; right: 0}
+#nav-goodies a {background: transparent url('http://images.christopher-scott.com/bg_navigation.png') no-repeat 60% -900px}
+#nav-goodies a:hover {background-position: 60% -975px}
+#nav-goodies a:active {background-position: 60% -1122px}
+#goodies #nav-goodies a {background-position: 60% -1050px}
+#goodies #nav-goodies a:hover {background-position: 60% -975px}
+#goodies #nav-goodies a:active {background-position: 60% -1122px}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Content
+------------------------------------------------------------------------------------------------- */
+
+#content {background: url('http://images.christopher-scott.com/bg_bottomcollage.jpg') no-repeat bottom center; padding-bottom: 80px}
+#content_main{ background: url('http://images.christopher-scott.com/bg_bottompaint.jpg') no-repeat top center; padding-top: 40px}
+
+#content strong em {font-weight: bold}
+#content em strong {font-weight: bold;}
+/* #content strong, #content em {color: #140500;} */
+#content em {font-style: italic;}
+
+/* -------------------------------------------------------------------------------------------------
+	=	archives
+------------------------------------------------------------------------------------------------- */
+
+#goodies_wrapper {padding-top:20px; width: 940px; margin: 0 auto; margin-bottom: 140px; text-align: center;}
+
+#archives_wrapper {padding: 0 10px; width: 920px; margin: 0 auto; margin-bottom: 40px}
+#archives_wrapper table {width: 100%}
+#archives_wrapper thead tr {border-bottom: #666; background: url('http://images.christopher-scott.com/bg_hr.png') no-repeat center bottom}
+#archives_wrapper tr {border-bottom: 1px solid #f5f4f2;}
+#archives_wrapper th, #archives_wrapper td {text-align: left}
+#archives_wrapper th {font-size: 1.125em; font-weight: bold; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; padding: 0 20px 20px}
+#archives_wrapper td {font-size: .75em; padding: 10px 20px}
+#archives_wrapper a {text-decoration: none;}
+#archives_wrapper a:hover {text-decoration: underline}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Featured Slider
+------------------------------------------------------------------------------------------------- */
+
+
+#featured {margin: 0 auto; background: url('http://images.christopher-scott.com/bg_paper.jpg') repeat-y  center top}
+body#test #featured-inner {position: static}
+
+#featured-inner { width: 960px; margin: 0 auto;  background: #000 url('http://images.christopher-scott.com/bg_darkgradient.png') repeat-x top; position: relative}
+
+/* easySlider ... much better than better coda slider */ 
+
+/*
+#stage {position:relative;margin:0 auto;padding: 28px 0 0 0;}	
+#stage a {font-weight: bold; color: #ffcc00; text-decoration: none}
+#stage a:hover {text-decoration: underline; color: #fff}
+#stage h2 {font-size: 2em;font-family: Helvetica, Helvetica Neue, Arial, sans-serif; font-weight: bold;line-height: 1.25em;}
+#stage h2 a {color: #fff;}
+#stage h2 a:hover {color: #ffcc00;}
+#stage p {font-size: .875em;color: #A29586;}
+#stage p.highlight {color: #ffcc00;font-size: 1.125em;margin: 10px 0;font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;font-style: italic}
+#stage p.more {text-align: right;font-size: .75em;margin: 10px 0;}
+#stage p.screenshot-left { float: left; width: 250px; margin-right: 50px}
+#stage p.screenshot-left img {width: 250px;}
+
+#content #stage strong, #content #stage em {color: #A29586}
+
+#stage ul, #stage li {list-style:none;}
+	
+#stage .panel {height: 220px;width: 770px;}
+#prevBtn, #nextBtn{ display:block;width:70px;height:200px;position:absolute;top:32px;}	
+#nextBtn{ right: 25px;}
+#prevBtn {left: 25px;}	
+#prevBtn a, #nextBtn a{  display:block;width:50px;padding: 80px 10px;height:40px;background:url('../images/icon_arrow.png') no-repeat 0 0;text-indent: -9999px;}
+
+#prevBtn a {background-position: 0 -200px}
+#prevBtn a:hover {background-position: -70px -200px}
+#prevBtn a:active {background-position: -140px -200px}
+
+#nextBtn a {background-position: 0 0}
+#nextBtn a:hover {background-position: -70px 0}
+#nextBtn a:active {background-position: -140px 0}
+*/
+
+/* -------------------------------------------------------------------------------------------------
+	=	Homepage
+------------------------------------------------------------------------------------------------- */
+
+#blog_secondary #aboutme .icon {display: block; height: 16px; width: 16px; margin: 14px; float: left;}
+#default #blog_wrapper #aboutme p {margin-bottom: 20px;}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Section headers
+------------------------------------------------------------------------------------------------- */
+
+#section_header {margin: 0 auto; background: url('http://images.christopher-scott.com/bg_paper.jpg') repeat-y  center top; height: 40px}
+#section_header_inner { width: 920px; margin: 0 auto;  background: url('http://images.christopher-scott.com/bg_short_darkgradient.jpg') repeat-x top; padding: 0 20px}
+
+#section_header .title {float: left; width: 130px; height: 40px}
+#section_header .title a {display: block; padding-bottom: 20px; background: url('http://images.christopher-scott.com/bg_section_title.png') no-repeat; text-indent: -9999px}
+
+#section_header .meta {float: right; width: 440px; font-size: .8125em; line-height: 1.538em; color: #8c8072; font-weight: normal; margin-bottom: 0; text-align: right; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic;}
+#section_header .meta a {color: #fff; text-decoration: none}
+#section_header .meta a:hover {text-decoration: underline}
+#section_header .meta a.icon_meta {float: right; margin-left: 20px;}
+#section_header .meta a.icon_meta:hover {padding-left: 1px; padding-top: 1px;}
+#section_header .meta a.icon_meta:active {padding-top: 2px;}
+
+#blog #section_header .title a, #blog #section_header .title a:active {background-position: 0px 0px}
+#blog #section_header .title a:hover {background-position: 0px -40px }
+
+#portfolio #section_header .title a, #portfolio #section_header .title a:active {background-position: 0px -80px}
+#portfolio #section_header .title a:hover {background-position: 0px -120px }
+
+#richmedia #section_header .title a, #richmedia #section_header .title a:active {background-position: 0px -80px}
+#richmedia #section_header .title a:hover {background-position: 0px -120px }
+
+#goodies #section_header .title a, #goodies #section_header .title a:active {background-position: 0px -160px}
+#goodies #section_header .title a:hover {background-position: 0px -200px }
+
+#about #section_header .title a, #about #section_header .title a:active {background-position: 0px -240px}
+#about #section_header .title a:hover {background-position: 0px -280px }
+
+#archives #section_header .title a, #archives #section_header .title a:active {background-position: 0px -360px}
+#archives #section_header .title a:hover {background-position: 0px -320px }
+
+#contact #section_header .title a, #contact #section_header .title a:active {background-position: 0px -440px}
+#contact #section_header .title a:hover {background-position: 0px -400px }
+
+#sitemap #section_header .title a, #sitemap #section_header .title a:active {background-position: 0px -480px}
+#sitemap #section_header .title a:hover {background-position: 0px -520px }
+
+#thank-you #section_header .title a, #thank-you #section_header .title a:active {background-position: 0px -600px}
+#thank-you #section_header .title a:hover {background-position: 0px -560px }
+
+#colophon #section_header .title a, #colophon #section_header .title a:active {background-position: 0px -640px}
+#colophon #section_header .title a:hover {background-position: 0px -680px }
+
+#miscellaneous #section_header .title a, #miscellaneous #section_header .title a:active {background-position: 0px -720px}
+#miscellaneous #section_header .title a:hover {background-position: 0px -760px }
+
+
+
+/* -------------------------------------------------------------------------------------------------
+	=	Actions
+------------------------------------------------------------------------------------------------- */
+
+#actions {width: 960px; margin: 0 auto;}
+.actions_item {width: 200px; padding: 10px; margin: 10px; float: left; padding-bottom: 0; margin-bottom: 0;}
+
+.actions_item .icon {display: block; background: #fff; width: 58px; height:80px; float: right; padding-left: 20px}
+.actions_item .icon.download {width: 40px; padding-left: 10px}
+.actions_item a.icon:hover img {padding: 1px 0 0 1px;}
+.actions_item a.icon:active img {padding: 3px 0 0 3px;}
+.actions_item h2 { font-size: .875em;}
+.actions_item  h2 a {color: #140500; font-weight: bold; text-decoration: none}
+.actions_item h2 a:hover {color: #9a3802; text-decoration: underline }
+.actions_item p {background: url('http://images.christopher-scott.com/bg_tagline.png') no-repeat -70px -4px; font-size: .75em;}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Portfolio
+------------------------------------------------------------------------------------------------- */
+
+#zoom_content {line-height: 1px;}
+
+.portfolio_item {width: 280px; margin: 20px; float: left}
+.portfolio_item a img {border: 5px solid #efefef; display: block; width: 270px; height: 160px}
+.portfolio_item a:hover img {border: 5px solid #9A3802; }
+.portfolio_item .gallery {display: none}
+
+.portfolio_item h2 {float: left; font-size: .875em; font-weight: bold; margin: 10px 0 0}
+.portfolio_item h2 a {text-decoration: none; color: #140500 }
+.portfolio_item h2 a:hover {text-decoration: underline; color: #9A3802}
+.portfolio_item h3 {float: right; font-size: .8125em; color: #978982; font-family: palatino; font-style: italic; margin: 10px 0 0; padding-right: 5px;}

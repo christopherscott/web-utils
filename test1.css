@@ -1,0 +1,677 @@
+/* 	=RESET ----------------------------------------	 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ol,ul, li {list-style:none;}
+caption {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;}
+a {outline:none} /* Gets rid of Firefox's dotted borders */
+a img {border:none } /* Gets rid of IE's blue borders */
+strong {font-weight: bold;}
+em {font-style: italic}
+
+/* -------------------------------------------------------------------------------------------------
+	= 	Global styles
+------------------------------------------------------------------------------------------------- */
+body {background: #000; color: #534741;font-size:100%;font-family:  Helvetica, Helvetica Neue, Arial, sans-serif;line-height:1.25em;}
+
+#wrapper {margin: 0; padding: 0;background: #000 url('http://images.christopher-scott.com/bg_site.jpg') repeat-y center top;}
+
+a:link {color: #9a3802}
+a:visited {color: #9a3802}
+a:hover {color: #ff5b00}
+a:active {color: #007fb8}
+
+/* -------------------------------------------------------------------------------------------------
+Richmedia, expandable ad
+------------------------------------------------------------------------------------------------- */
+.coltxt {
+	font-size: .825em;
+	line-height: 1.5em;
+	padding: 0 20px;
+	margin: 20px 20px 20px 0;
+	border-right: 1px solid #dfe0dc;
+	width: 27%;
+	float: left;
+}
+
+.coltxt.last {margin-right: 0; border-right: 0}
+
+/* -------------------------------------------------------------------------------------------------
+Tabs - JQuery UI
+------------------------------------------------------------------------------------------------- */
+
+
+#portfolio_tabnav li {
+	display: inline;
+	}
+
+.ui-tabs .ui-tabs-hide {
+     display: none;
+}
+/* -------------------------------------------------------------------------------------------------
+	= 	Better slider styles
+------------------------------------------------------------------------------------------------- */
+#slider {padding-top: 28px; margin: 0 auto;}	
+#slider ul, #slider li {margin:0;padding:0;list-style:none;}
+#slider li {width:790px;height:220px; margin: 0 auto}		
+
+#slider p, #slider h2 {margin: 0 20px}
+
+#slider a {font-weight: bold; color: #ffcc00; text-decoration: none}
+#slider a:hover {text-decoration: underline; color: #fff}
+#slider h2 {font-size: 2em;font-family: Helvetica, Helvetica Neue, Arial, sans-serif; font-weight: bold;line-height: 1.25em;}
+#slider h2 a {color: #fff;}
+#slider h2 a:hover {color: #ffcc00;}
+#slider p {font-size: .875em;color: #A29586;}
+#slider p.highlight {color: #ffcc00;font-size: 1.125em;margin: 10px 0;font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;font-style: italic}
+#slider p.more {text-align: right;font-size: .75em;margin: 10px 0;}
+#slider p.screenshot-left { float: left; width: 250px; margin-right: 50px}
+#slider p.screenshot-left img {width: 250px;}
+
+/* -------------------------------------------------------------------------------------------------
+	= 	Header
+------------------------------------------------------------------------------------------------- */
+
+#accessibility {display: none}
+
+#header {height: 232px;background: transparent url('http://images.christopher-scott.com/bg_philly.jpg') no-repeat 50% 0%;}
+#header-inner {position: relative; margin: 0 auto;width: 960px;padding-top: 40px}
+
+#metalinks {position: absolute;top: 0;right: 0;font-size: 0.75em;}
+#metalinks a {font-weight: bold;color: #fff;text-decoration: none; padding: 0 10px; border-right: 2px solid #8d6c3a}	
+#metalinks a:hover {text-decoration: underline;}
+#metalinks li {float: left;}
+#metalinks li.last a {padding-right: 0; margin-right: 0; border: 0;}
+#metalinks-rssimage {vertical-align: middle}
+
+#header #logo {background:transparent url('http://images.christopher-scott.com/bg_logo.png') no-repeat scroll 0 0px;height:80px;position:relative;width:338px;}
+#header #logo a:link, #header #logo a:visited {display:block;height:80px;overflow:hidden;position:relative;text-indent:-9000px;width:338px;z-index:5;}
+#header #logo span {background:transparent url('http://images.christopher-scott.com/bg_logo.png') no-repeat scroll -1px -162px; display:block; height:80px; left:0; position:absolute; top:0; width:338px; z-index:1;}
+#header #logo {background-position: 0 -162px;}
+#header #logo a:active, #home #header #logo a:focus {background-position:0 -80px;}
+#header #logo span {background-position: -1px -1px;}
+
+#tagline {width: 213px;background: transparent url('http://images.christopher-scott.com/bg_tagline.png') no-repeat 0px 5px; font-size: 0.75em; margin-left: 177px; padding: 10px 0}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Navigation
+------------------------------------------------------------------------------------------------- */
+
+#navigation {margin: 0 auto;float: right;width: 440px;margin-top: -115px;}
+
+.kwicks {list-style: none;position: relative;padding: 0;}
+.kwicks li{display: block;background: transparent;overflow: hidden;padding: 0;cursor: pointer;position: absolute}
+.kwicks li a {display: block;height: 75px;text-indent: -90000px;}
+.kwicks li {float: left;width: 110px;height: 75px;}
+
+#nav-portfolio {top: 31px; left: 0}
+#nav-portfolio a {background: transparent url('http://images.christopher-scott.com/bg_navigation.png') no-repeat 50% 0px}
+#nav-portfolio a:hover {background-position: 50% -75px}
+#nav-portfolio a:active {background-position: 50% -222px}
+#portfolio #nav-portfolio a {background-position: 50% -150px}
+#portfolio #nav-portfolio a:hover {background-position: 50% -75px}
+#portfolio #nav-portfolio a:active {background-position: 50% -222px}
+
+#nav-about {top: 13px; left: 110px}
+#nav-about a {background: transparent url('http://images.christopher-scott.com/bg_navigation.png') no-repeat 40% -300px}
+#nav-about a:hover {background-position: 40% -375px}
+#nav-about a:active {background-position:  40% -522px}
+#about #nav-about a {background-position: 40% -450px}
+#about #nav-about a:hover {background-position: 40% -375px}
+#about #nav-about a:active {background-position: 40% -522px}
+
+#nav-blog {top: -1px; left: 220px}
+#nav-blog a {background: transparent url('http://images.christopher-scott.com/bg_navigation.png') no-repeat 65% -600px}
+#nav-blog a:hover {background-position: 65% -675px}
+#nav-blog a:active {background-position:  65% -822px}
+#blog #nav-blog a {background-position: 65% -750px}
+#blog #nav-blog a:hover {background-position: 65% -675px}
+#blog #nav-blog a:active {background-position: 65% -822px}
+
+#nav-goodies {top: -1px; right: 0}
+#nav-goodies a {background: transparent url('http://images.christopher-scott.com/bg_navigation.png') no-repeat 60% -900px}
+#nav-goodies a:hover {background-position: 60% -975px}
+#nav-goodies a:active {background-position: 60% -1122px}
+#goodies #nav-goodies a {background-position: 60% -1050px}
+#goodies #nav-goodies a:hover {background-position: 60% -975px}
+#goodies #nav-goodies a:active {background-position: 60% -1122px}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Content
+------------------------------------------------------------------------------------------------- */
+
+#content {background: url('http://images.christopher-scott.com/bg_bottomcollage.jpg') no-repeat bottom center; padding-bottom: 80px}
+#content_main{ background: url('http://images.christopher-scott.com/bg_bottompaint.jpg') no-repeat top center; padding-top: 40px}
+
+#content strong em {font-weight: bold}
+#content em strong {font-weight: bold;}
+/* #content strong, #content em {color: #140500;} */
+#content em {font-style: italic;}
+
+/* -------------------------------------------------------------------------------------------------
+	=	archives
+------------------------------------------------------------------------------------------------- */
+
+#goodies_wrapper {padding-top:20px; width: 940px; margin: 0 auto; margin-bottom: 140px; text-align: center;}
+
+#archives_wrapper {padding: 0 10px; width: 920px; margin: 0 auto; margin-bottom: 40px}
+#archives_wrapper table {width: 100%}
+#archives_wrapper thead tr {border-bottom: #666; background: url('http://images.christopher-scott.com/bg_hr.png') no-repeat center bottom}
+#archives_wrapper tr {border-bottom: 1px solid #f5f4f2;}
+#archives_wrapper th, #archives_wrapper td {text-align: left}
+#archives_wrapper th {font-size: 1.125em; font-weight: bold; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; padding: 0 20px 20px}
+#archives_wrapper td {font-size: .75em; padding: 10px 20px}
+#archives_wrapper a {text-decoration: none;}
+#archives_wrapper a:hover {text-decoration: underline}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Featured Slider
+------------------------------------------------------------------------------------------------- */
+
+
+#featured {margin: 0 auto; background: url('http://images.christopher-scott.com/bg_paper.jpg') repeat-y  center top}
+body#test #featured-inner {position: static}
+
+#featured-inner { width: 960px; margin: 0 auto;  background: #000 url('http://images.christopher-scott.com/bg_darkgradient.png') repeat-x top; position: relative}
+
+/* easySlider ... much better than better coda slider */ 
+
+/*
+#stage {position:relative;margin:0 auto;padding: 28px 0 0 0;}	
+#stage a {font-weight: bold; color: #ffcc00; text-decoration: none}
+#stage a:hover {text-decoration: underline; color: #fff}
+#stage h2 {font-size: 2em;font-family: Helvetica, Helvetica Neue, Arial, sans-serif; font-weight: bold;line-height: 1.25em;}
+#stage h2 a {color: #fff;}
+#stage h2 a:hover {color: #ffcc00;}
+#stage p {font-size: .875em;color: #A29586;}
+#stage p.highlight {color: #ffcc00;font-size: 1.125em;margin: 10px 0;font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;font-style: italic}
+#stage p.more {text-align: right;font-size: .75em;margin: 10px 0;}
+#stage p.screenshot-left { float: left; width: 250px; margin-right: 50px}
+#stage p.screenshot-left img {width: 250px;}
+
+#content #stage strong, #content #stage em {color: #A29586}
+
+#stage ul, #stage li {list-style:none;}
+	
+#stage .panel {height: 220px;width: 770px;}
+#prevBtn, #nextBtn{ display:block;width:70px;height:200px;position:absolute;top:32px;}	
+#nextBtn{ right: 25px;}
+#prevBtn {left: 25px;}	
+#prevBtn a, #nextBtn a{  display:block;width:50px;padding: 80px 10px;height:40px;background:url('../images/icon_arrow.png') no-repeat 0 0;text-indent: -9999px;}
+
+#prevBtn a {background-position: 0 -200px}
+#prevBtn a:hover {background-position: -70px -200px}
+#prevBtn a:active {background-position: -140px -200px}
+
+#nextBtn a {background-position: 0 0}
+#nextBtn a:hover {background-position: -70px 0}
+#nextBtn a:active {background-position: -140px 0}
+*/
+
+/* -------------------------------------------------------------------------------------------------
+	=	Homepage
+------------------------------------------------------------------------------------------------- */
+
+#blog_secondary #aboutme .icon {display: block; height: 16px; width: 16px; margin: 14px; float: left;}
+#default #blog_wrapper #aboutme p {margin-bottom: 20px;}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Section headers
+------------------------------------------------------------------------------------------------- */
+
+#section_header {margin: 0 auto; background: url('http://images.christopher-scott.com/bg_paper.jpg') repeat-y  center top; height: 40px}
+#section_header_inner { width: 920px; margin: 0 auto;  background: url('http://images.christopher-scott.com/bg_short_darkgradient.jpg') repeat-x top; padding: 0 20px}
+
+#section_header .title {float: left; width: 130px; height: 40px}
+#section_header .title a {display: block; padding-bottom: 20px; background: url('http://images.christopher-scott.com/bg_section_title.png') no-repeat; text-indent: -9999px}
+
+#section_header .meta {float: right; width: 440px; font-size: .8125em; line-height: 1.538em; color: #8c8072; font-weight: normal; margin-bottom: 0; text-align: right; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic;}
+#section_header .meta a {color: #fff; text-decoration: none}
+#section_header .meta a:hover {text-decoration: underline}
+#section_header .meta a.icon_meta {float: right; margin-left: 20px;}
+#section_header .meta a.icon_meta:hover {padding-left: 1px; padding-top: 1px;}
+#section_header .meta a.icon_meta:active {padding-top: 2px;}
+
+#blog #section_header .title a, #blog #section_header .title a:active {background-position: 0px 0px}
+#blog #section_header .title a:hover {background-position: 0px -40px }
+
+#portfolio #section_header .title a, #portfolio #section_header .title a:active {background-position: 0px -80px}
+#portfolio #section_header .title a:hover {background-position: 0px -120px }
+
+#richmedia #section_header .title a, #richmedia #section_header .title a:active {background-position: 0px -80px}
+#richmedia #section_header .title a:hover {background-position: 0px -120px }
+
+#goodies #section_header .title a, #goodies #section_header .title a:active {background-position: 0px -160px}
+#goodies #section_header .title a:hover {background-position: 0px -200px }
+
+#about #section_header .title a, #about #section_header .title a:active {background-position: 0px -240px}
+#about #section_header .title a:hover {background-position: 0px -280px }
+
+#archives #section_header .title a, #archives #section_header .title a:active {background-position: 0px -360px}
+#archives #section_header .title a:hover {background-position: 0px -320px }
+
+#contact #section_header .title a, #contact #section_header .title a:active {background-position: 0px -440px}
+#contact #section_header .title a:hover {background-position: 0px -400px }
+
+#sitemap #section_header .title a, #sitemap #section_header .title a:active {background-position: 0px -480px}
+#sitemap #section_header .title a:hover {background-position: 0px -520px }
+
+#thank-you #section_header .title a, #thank-you #section_header .title a:active {background-position: 0px -600px}
+#thank-you #section_header .title a:hover {background-position: 0px -560px }
+
+#colophon #section_header .title a, #colophon #section_header .title a:active {background-position: 0px -640px}
+#colophon #section_header .title a:hover {background-position: 0px -680px }
+
+#miscellaneous #section_header .title a, #miscellaneous #section_header .title a:active {background-position: 0px -720px}
+#miscellaneous #section_header .title a:hover {background-position: 0px -760px }
+
+
+
+/* -------------------------------------------------------------------------------------------------
+	=	Actions
+------------------------------------------------------------------------------------------------- */
+
+#actions {width: 960px; margin: 0 auto;}
+.actions_item {width: 200px; padding: 10px; margin: 10px; float: left; padding-bottom: 0; margin-bottom: 0;}
+
+.actions_item .icon {display: block; background: #fff; width: 58px; height:80px; float: right; padding-left: 20px}
+.actions_item .icon.download {width: 40px; padding-left: 10px}
+.actions_item a.icon:hover img {padding: 1px 0 0 1px;}
+.actions_item a.icon:active img {padding: 3px 0 0 3px;}
+.actions_item h2 { font-size: .875em;}
+.actions_item  h2 a {color: #140500; font-weight: bold; text-decoration: none}
+.actions_item h2 a:hover {color: #9a3802; text-decoration: underline }
+.actions_item p {background: url('http://images.christopher-scott.com/bg_tagline.png') no-repeat -70px -4px; font-size: .75em;}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Portfolio
+------------------------------------------------------------------------------------------------- */
+
+#zoom_content {line-height: 1px;}
+
+.portfolio_item {width: 280px; margin: 20px; float: left}
+.portfolio_item a img {border: 5px solid #efefef; display: block; width: 270px; height: 160px}
+.portfolio_item a:hover img {border: 5px solid #9A3802; }
+.portfolio_item .gallery {display: none}
+
+.portfolio_item h2 {float: left; font-size: .875em; font-weight: bold; margin: 10px 0 0}
+.portfolio_item h2 a {text-decoration: none; color: #140500 }
+.portfolio_item h2 a:hover {text-decoration: underline; color: #9A3802}
+.portfolio_item h3 {float: right; font-size: .8125em; color: #978982; font-family: palatino; font-style: italic; margin: 10px 0 0; padding-right: 5px;}
+
+
+
+
+#portfolio_wrapper { width: 960px; margin: 0 auto 20px auto}
+
+#portfolio_tabs { 
+width: 960px; margin: 0 auto 20px auto}
+
+#portfolio_tabs .tabnav {
+	margin: 0 auto;
+	padding: 0 170px 20px;
+	width: 460px;
+	background: transparent url('http://images.christopher-scott.com/bg_hr.png') no-repeat bottom;
+	}
+
+#portfolio_tabs .tabnav li {
+	float: left;
+	/* background: #e1e1e1; */
+	margin-right: 20px;
+	width: 140px;
+	}
+
+#portfolio_tabs .tabnav li.ui-tabs-selected a {
+	color: #9a3802;
+	}
+
+#portfolio_tabs .tabnav li.ui-tabs-selected a:hover {
+	color: #ff5b00;
+	text-decoration: underline;
+	}
+
+#portfolio_tabs .tabnav li.last {
+	margin-right: 0;
+	}
+	
+#portfolio_tabs .tabnav li a {
+	display: block;
+	color:#140500;
+	font-family:Palatino,Palatino Linotype,Hoefler Text,Times,Times New Roman,serif;
+	font-size:1.125em;
+	font-style:italic;
+	font-weight:bold;text-decoration:none;
+	text-align: center;
+	padding: 10px 0;
+}
+
+#portfolio_tabs .tabnav li a:hover {color: #9a3802;}
+#portfolio_tabs .tabnav li a:active {color: #ff5b00;}
+/*
+
+
+
+.portfolio_item {padding: 40px 0;}
+.portfolio_item.first {padding-top: 0;}
+#portfolio_wrapper div.portfolio_item + div.portfolio_item {padding-top: 40px;} 
+.portfolio_item h2 {font-size: 2em; line-height: 1.25em; font-weight: bold}
+.portfolio_item h2 a {color: #140500; text-decoration: none}
+.portfolio_item h2 a:hover {color: #9a3802; text-decoration: underline}
+.portfolio_item .image {float: right; width: 440px; height: 300px; background: #fff; padding-left: 40px;}
+.portfolio_item .drd {height: 211px; padding: 0 0 44px 40px;}
+.portfolio_item .meta {margin-bottom: 0;color: #978982; font-size: .75em; padding: 20px 0; background: url('http://images.christopher-scott.com/bg_meta.png') repeat-x 0 14px;}
+.portfolio_item .meta a {font-weight: bold; text-decoration: none;}
+.portfolio_item .meta a:hover {text-decoration: underline;}
+.portfolio_item p, .portfolio_item ul, .portfolio_item ol {font-size: .875em; margin-bottom: 20px}
+
+*/
+#about_secondary {}
+#about_primary {}
+
+#portfolio_wrapper .entry .image {float: right; background: #fff; padding-left: 40px;width: 440px; height: 300px;}
+#portfolio_wrapper .entry h1 {color: #140500; font-size: 2em; line-height: 1.25em; font-weight: bold; font-style: normal; font-family: Helvetica, Helvetica Neue, Arial, sans-serif;}
+#portfolio_wrapper .entry .portfolio_primary {width: 520px}
+#portfolio_wrapper .entry .float_right {margin-right: -420px;margin-top: 20px}
+#portfolio_wrapper .entry .float_left {margin-left: -420px}
+
+/* -------------------------------------------------------------------------------------------------
+	=	LinkedIn Resume
+------------------------------------------------------------------------------------------------- */
+
+#linkedin_wrapper {padding-top:20px; width: 940px; margin: 0 auto; margin-bottom: 140px}
+
+#overview, div.profile-header, div.actions,#summary h2, summary h3, #additional-information,.info, .skills  {display: none;}
+#experience ul.vcalendar li.experience {position: relative;}
+abbr {text-decoration: none;border: none;color: #999;font-style: italic;font-size: .9em;}
+.organization-details {font-size: .9em;color: #999;}
+.org summary {font-size: 1.2em;font-style: italic;}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Blog
+------------------------------------------------------------------------------------------------- */
+
+#default #blog_wrapper {padding-top: 20px}
+#default #blog_wrapper .entry .headline {float: none; width: inherit; margin-left: 0}
+#default #blog_wrapper #blog_primary {float: left;}
+#default #blog_wrapper .entry p, #default #blog_wrapper .entry ul, #default #blog_wrapper .entry ol, #default #blog_wrapper .entry h3, #default #blog_wrapper .entry h4, #default #blog_wrapper .entry h5, #default #blog_wrapper .entry h6 {
+margin:0;
+width:inherit;
+}
+
+#default #blog_wrapper .entry .meta {padding: 20px 0; background: url('http://images.christopher-scott.com/bg_meta.png') repeat-x center center}
+
+#default .entry .posted {
+font-style:normal;
+font-family: Helvetica,Helvetica Neue,Arial,sans-serif;
+position:static;
+margin: 0;
+width: inherit;
+padding: 0;
+font-size: inherit;
+}
+
+#blog_wrapper {width: 940px; margin: 0 auto}
+
+#blog_primary {width: 520px; margin-right: 60px;}
+#blog_secondary { width: 360px; float: left;}
+#blog .entry {margin-bottom: 20px;}
+.entry .body {  }
+.entry .headline a {color: #140500; text-decoration: none;}
+.entry .headline a:hover {color: #9a3802; text-decoration: underline}
+.entry p, .entry ul, .entry ol, .entry h3, .entry h4, .entry h5, .entry h6 {width: 600px; margin: 0 auto;}
+.entry p, .entry ul, .entry ol {font-size: 1em; margin-bottom: 20px; line-height: 1.5em; }
+.entry ul li, .entry ol li {margin-bottom: 20px;}
+.entry ul li {list-style-type: disc;}
+.entry ol li {list-style-type: decimal;}
+.entry h3 {color: #140500; font-size: 1.125em; font-weight: bold; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; margin-bottom: 20px;}
+.entry blockquote {width: 620px; padding: 9px 10px; margin: 20px auto; background: #f2f2f2; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic}
+.entry blockquote p {margin-bottom: 0; color: #635954;}
+.entry p + p {text-indent: 1em;}
+.entry .meta .flouron {}
+
+#default .headline, #default .entry .meta {text-align: left;}
+#default .entry p + p {text-indent: 0;}
+
+#blog_secondary .module {padding-bottom: 20px; margin-bottom: 20px;background: url('http://images.christopher-scott.com/bg_hr.png') no-repeat bottom center;}
+
+.entry .heading {padding-bottom: 10px; margin-bottom: 10px; background: url('http://images.christopher-scott.com/bg_hr.png') no-repeat bottom center; width: 770px; position: relative}
+.entry .headline {float: left; margin-left: 170px; width: 600px; font-size: 2em; line-height: 1.25em; font-weight: bold; font-style: normal; font-family: Helvetica, Helvetica Neue, Arial, sans-serif;}
+.entry .posted {position: absolute; font-size: 1.3125em; bottom: 13px; padding-left: 10px; width: 120px; margin-right: 40px; margin-bottom: 0; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic}
+.entry .meta {margin: 0 auto; color: #978982; font-size: .75em; padding-bottom: 10px; margin-bottom: 10px; background: url('http://images.christopher-scott.com/bg_hr.png') no-repeat bottom center; width: 600px;}
+
+
+.list_dashbullet li {font-size: .75em;}
+.list_dashbullet li a {background: url('http://images.christopher-scott.com/bg_bullet_subdued.png') no-repeat -2px 3px; padding-left: 10px; margin-left: -10px; text-decoration: none; font-weight: bold}
+.list_dashbullet li a:hover {text-decoration: underline;}
+
+/*  */
+
+/* -- livesearch -- */
+#LSShadow {font-size: .875em; color: #666}
+#LSHeader {margin: 20px 0; font-size: .8571em; background: #f2f2f2; padding: 0 10px; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; }
+.LSRow {font-size: .8571em}
+.LSRow a {background: url('http://images.christopher-scott.com/bg_bullet_subdued.png') no-repeat -2px 3px; padding-left: 10px; margin-left: -10px; text-decoration: none; font-weight: bold}
+.LSRow a:hover {text-decoration: underline;}
+#searchform label {font-size: .75em;}
+#searchform input {color: #534741}
+span.lsSection {font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif;font-style:italic;margin-left:10px;}
+
+#blog_secondary h3 {font-size: 1.125em; font-weight: bold; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; margin-bottom: 20px;}
+#blog_secondary h3 a {color: #140500; text-decoration: none}
+#blog_secondary h3 a:hover {color: #9a3802; text-decoration: underline}
+#blog_secondary p { font-size: .75em; margin-bottom: 20px}
+
+p.article_image {background: #fff; float: right; margin: 13px 0 7px 0; padding-left: 20px; width: 190px}
+p.article_image img {max-width: 190px}
+
+#blog .entry p.meta + p {text-indent: 0}
+
+#default #blog_wrapper {padding: 20px 0}
+#default #blog_wrapper .entry p {font-size: .875em}
+#default #blog_wrapper .more {text-align: right; font-size: .75em}
+#default #blog_wrapper p {margin-bottom: 0}
+
+#default #blog_wrapper p.article_image {margin-top: 12px}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Comments
+------------------------------------------------------------------------------------------------- */
+
+#entry_comments {width: 600px; margin: 0 auto 20px;}
+
+.comments_header {color: #140500; font-size: 1.125em; font-weight: bold; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; margin-bottom: 20px;}
+
+#txpCommentInputForm label {font-size: .75em;}
+#txpCommentInputForm tr {padding-bottom: 20px}
+.comments {margin: 0 auto}
+.comments li {list-style: decimal; font-size: .875em; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-weight: bold; color: #140500; font-style: italic; /* background: url('http://images.christopher-scott.com/bg_hr.png') no-repeat bottom center; */ margin-bottom: 20px; padding-bottom: 20px  }
+.comments li p {font-family: Helvetica, Helvetica Neue, Arial, sans-serif; font-weight: normal; color: #534741; font-style: normal}
+.comments li p.small {margin-top: 20px; color: #978982; text-align: right; font-size: .8571em; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic;}
+.comments li p.small span {  padding-left: 20px;  background: url('http://images.christopher-scott.com/bg_hedera.png') no-repeat -2px 2px;}
+
+#comment_form .primary {width: 290px; float: left; margin-right: 20px;}
+#comment_form .secondary {width: 210px; float: left;}
+#comment_form .secondary input[type="text"] {width: 204px;}
+#comment_form .secondary p {margin-bottom: 20px;}
+#comment_form .help {float: right; font-size: .6875em; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic; background: #f2f2f2; padding: 2px}
+#comment_form .help a {text-decoration: none;}
+#comment_form .help a:hover {text-decoration: underline}
+#comment_form textarea {font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic; color: #534741; padding: 10px; width: 268px; height: 198px; line-height: 1.3em; font-size: 1em}
+#comment_form .meta {text-align:right;}
+#comment_form .meta .remember {float: left; width: 75px; text-align: left}
+#txpCommentPreview {margin-bottom:10px}
+.comments_label p {float: right; font-size: .75em; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic; color: #978982}
+
+#cpreview {padding: 10px; background: #f2f2f2; margin-bottom: 20px;}
+#cpreview p {font-size: .875em; color: #534741;}
+#cpreview p.small {margin-top: 20px; color: #978982; text-align: right; font-size: .75em; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic;}
+#cpreview p.small span {  padding-left: 20px;  background: url('http://images.christopher-scott.com/bg_hedera.png') no-repeat -2px 2px;}
+#cpreview .meta {color:#978982;font-size:0.75em;text-align:center;font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic; margin-top: 20px; width: 400px; border-top: 1px solid #ebe9e8 ; margin: 20px auto 0 auto; padding-top: 10px;}
+
+p#txpCommentInputForm {text-indent: -9999px; background: url('http://images.christopher-scott.com/bg_comment_thanks.png') no-repeat center center; height: 160px}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Blog Sidebar
+------------------------------------------------------------------------------------------------- */
+
+#default #blog_wrapper #blog_secondary .float_right img {padding: 5px; border: 1px solid #dfe0dc}
+
+
+/*
+#blog_secondary h2 { font-size: 1.125em; color: #140500; font-weight: bold;  margin-bottom: 20px}
+#blog_secondary h3 {font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; color: #140500; font-style: italic;  margin-bottom: 20px}
+*/
+
+
+/* -------------------------------------------------------------------------------------------------
+	=	About
+------------------------------------------------------------------------------------------------- */
+
+#about_wrapper {margin:0 auto 10px;padding:20px 10px 0px;width:920px;}
+#about_wrapper h1 {margin-bottom: 20px;font-size: 2em; line-height: 1.25em; font-weight: bold; color: #140500 }
+#about_wrapper h1 + p {margin-bottom: 20px;font-size: 1.125em; font-weight: bold; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif;}
+
+#about_secondary {float: left; width: 200px; padding-right: 20px;background: url('http://images.christopher-scott.com/bg_verticalrule.png') repeat-y right;}
+#about_primary {float: left; width: 520px; padding-left: 20px;}
+#about_primary h2 {margin-bottom: 20px;font-size: 1.125em; font-weight: bold; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; color: #140500}
+#about_primary .float_right {margin-top: -100px; margin-right: -160px;}
+
+#about_wrapper p, #about_wrapper ul, #about_wrapper ol { font-size: .875em; margin-bottom: 20px;}
+
+.about_item {margin: 20px 0 40px}
+.about_item.last {margin-bottom: 0}
+.about_item a {text-decoration: none; font-weight: bold}
+.about_item a:hover {text-decoration: underline}
+.about_item .icon {display: block; background: #fff; width: 20px; height:20px; float: left; padding-right: 10px}
+.about_item a.icon:hover img {padding: 1px 0 0 1px;}
+.about_item a.icon:active img {padding: 3px 0 0 3px;}
+#about_wrapper .about_item p {background: url('http://images.christopher-scott.com/bg_tagline.png') no-repeat -70px -4px; font-size: .75em;margin-bottom: 0;}
+
+#about_wrapper #about_primary .float_right img {padding: 10px; border: 1px solid #dfe0dc}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Thank You Page
+------------------------------------------------------------------------------------------------- */
+#thankyou_wrapper {width: 920px; padding: 20px 10px 20px 10px; margin: 0 auto; margin-bottom: 20px} 
+#thankyou_wrapper p {text-align: center}
+#thankyou_wrapper h2 {text-align: center; margin-bottom: 20px; padding-bottom: 20px; background: url('http://images.christopher-scott.com/bg_hr.png') no-repeat bottom center; color: #140500; font-size: 1.125em; font-weight: bold; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; margin-bottom: 20px;}
+#thankyou_wrapper h2 span {color: #534741 }
+
+/* -------------------------------------------------------------------------------------------------
+	=	404 Page
+------------------------------------------------------------------------------------------------- */
+#error_wrapper {width: 770px; margin: 0 auto}
+body #error_wrapper a { display: block; height: 260px; width: 667px; margin: 0 auto;background: url('http://images.christopher-scott.com/bg_404.png') no-repeat center center; text-indent: -9999px;}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Contact
+------------------------------------------------------------------------------------------------- */
+
+#contact_wrapper {width: 920px; padding: 20px 10px; margin: 0 auto; margin-bottom: 20px} 
+#contact_wrapper legend {display: none;}
+.contact_primary {float: left; width: 610px; margin-right: 40px;}
+.contact_secondary {float: left; width: 270px}
+.content_secondary .zem_text {width: 264px;}
+textarea.zemTextarea {margin: 0 auto; color: #534741; width: 580px; padding: 10px 14px; font-size: 1.5em; font-style: italic; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif;}
+#contact_wrapper br {display: none}
+#contact_wrapper label {display: block;font-size: .75em;}
+
+#contact_wrapper .contact_secondary p {margin-bottom: 10px}
+#contact_wrapper .contact_secondary input {margin: 0 auto; width: 260px; font-size: .875em;font-family: Helvetica, Helvetica Neue, Arial, sans-serif; color: #534741; padding: 3px 2px 0px 2px}
+#contact_wrapper .contact_secondary input.zemSubmit {margin: 0 5px; font-size: .75em}
+#contact_wrapper .contact_secondary input#Twitter {color: #008ad4}
+/* -------------------------------------------------------------------------------------------------
+	=	Twitter
+------------------------------------------------------------------------------------------------- */
+
+#twitter {width: 600px;padding-left: 250px;padding-right: 90px;margin: 0 auto; padding-bottom: 0}
+#twitter p {margin-bottom: 20px;}
+#twitter_update_list li {font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif;font-weight: bold;color: #140500;font-style: italic;font-size: 1.5em;line-height: 1.4em;margin-bottom: 32px;}
+#twitter_update_list li a {color: #978982;font-weight: normal;padding-left: 5px;text-decoration: none;}
+#twitter_update_list li a:hover {color: #9A3802;text-decoration: underline;}
+#twitter-link {font-size: 0.875em;padding-bottom: 20px;text-align: right; text-indent: -9999px}
+#twitter-link a {padding: 30px 0 37px 30px; color: #978982;font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif; font-style: italic; background: url('http://images.christopher-scott.com/icon_allatwitter_small.png') no-repeat left 20px; text-decoration: none}
+#twitter-link a:hover {text-decoration: underline}
+
+/* -------------------------------------------------------------------------------------------------
+	=	Tweet!
+------------------------------------------------------------------------------------------------- */
+
+.tweet_avatar {display: none}
+.tweet_join {display: none}
+.tweet_list li {position: relative; font-family: Palatino, Palatino Linotype, Hoefler Text, Times, Times New Roman, serif;font-weight: bold;color: #140500;font-style: italic;font-size: 1.5em;line-height: 1.4em;margin-bottom: 32px; text-align: right}
+.tweet_list li span.tweet-status-link {color: #978982; font-size: .58em; font-weight: normal; display: block }
+.tweet_list li span.tweet-status-link a {color: #978982;text-decoration: none;}
+.tweet_list li span.tweet-status-link a:hover {text-decoration: underline}
+#section_header .tweet_list li {position: static; font-weight: normal; color: #8c8072; font-size: 1em; }
+
+/* -------------------------------------------------------------------------------------------------
+	=	Footer
+------------------------------------------------------------------------------------------------- */
+#footer {font-size: .6875em; color: #A29586; margin: 0 auto; background: transparent url('http://images.christopher-scott.com/bg_paper.jpg') repeat-y center;}
+#footer a {font-size: 1.09em; color: #fff; text-decoration: none; font-weight: bold}
+#footer a:hover {color: #ffcc00; text-decoration: underline}
+#footer h3 {color: #ffcc00; margin-bottom: 14px; padding-bottom:5px;  border-bottom: 1px solid #463730;}
+#footer ul, #footer p {margin-bottom: 20px;}
+#footer_inner {width: 940px; padding: 20px 10px; margin: 0 auto; background: transparent url('http://images.christopher-scott.com/bg_darkgradient.png') repeat-x center top;}
+#footer-tertiary {margin-right: 0;}
+.footer-bucket {float: left; width: 280px; margin-right: 20px; padding: 0 10px;}
+#footer .bottom {margin-bottom: 0;}
+
+#tail { height: 20px; color: #ccc2b6; padding-top: 16px;  padding-bottom: 24px; margin: 0 auto;  background: transparent url('http://images.christopher-scott.com/bg_philly.jpg') no-repeat 50% -232px;}
+#tail p {font-size: .75em;}
+#tail p.clue-one {font-size: .625em}
+#tail a {color: #fff; font-weight: bold; text-decoration: none}
+#tail a:hover {text-decoration: underline}
+#tail_inner {width: 920px; padding: 0 10px; margin: 0 auto; height: 20px;}
+
+.color_scheme {font-family: Courier, mono; font-size: .90909em}
+.color_scheme li {color: #fff; float: left;padding: 10px 2px; margin-right: 12px}
+.sed {background: #9a3802 }
+.Quis {background: #00b7ff }
+.custodiet {background: #391a0d }
+.ipsos {background: #ffcc00 }
+.color_scheme li.custodes {background: #750004; margin-right: 0} 
+
+
+/* -------------------------------------------------------------------------------------------------
+	= 	Fixes, hacks, filters, and other useful miscellany
+------------------------------------------------------------------------------------------------- */
+
+#content .subdued {color:#978982;
+font-size:0.75em;}
+
+.float-left {float:left;}
+.float-right {float:right;}
+
+
+.align-right {text-align: right}
+.align-left {text-align: left}
+
+.flat_list li {float: left;margin-right: 20px;}
+.flat_list li.last {margin-right: 0;}
+
+.subdued a.nude {text-decoration: none; color: #978982}
+.subdued a.nude:hover {text-decoration: underline; color: #9A3802}
+.subdued a.nude:active {color: #007fb8}
+
+.float_right {float: right; margin: 0 0 20px 20px;}
+.float_left {float: left; margin: 0 20px 20px}
+
+div.hr {height: 20px; margin-bottom: 20px; background: url('http://images.christopher-scott.com/bg_hr.png') no-repeat scroll center;}
+div.hr.noMargin {margin-bottom: 0;}
+div.hr hr {display: none;}
+
+#footer div.hr {background: url('http://images.christopher-scott.com/bg_hr_footer.png') no-repeat center; margin-bottom: 10px; margin-top: -10px}
+
+#portfolio_wrapper div.hr {margin-bottom: 40px}
+
+/* clear fix */
+.clear { display: inline-block; }   
+.clear:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+* html .clear { height: 1%; }
+.clear { display: block; }
