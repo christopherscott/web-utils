@@ -11,3 +11,7 @@ Ideas (so far):
 - stylesByType: created to help identify and extract CSS rules (including selectors) by type. For example: find all "background" rules. Files can also be edited in-line to remove said rules and insert into a new stylesheet. Also can provide stats on rules as well.
 
 - styleChecker: CSS syntax checker
+
+- ySync: a specialized implementation of rsync that can send change diffs to one or more additional places, optionally running the files through one or more filters.
+
+- reToken: a general purpose tokenizer that supports a number of options including recursively replacement on current folder.
